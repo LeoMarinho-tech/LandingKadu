@@ -6,12 +6,14 @@ h1, h2{
     font-family: "Iceland", serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 p{
     font-family: "Unna",sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 body{
