@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-h1, h2{
+h1, h2, h3{
     font-family: "Iceland", serif;
     font-weight: 400;
     font-style: normal;
@@ -50,5 +50,97 @@ header p{
     margin-top: 1px;
 }
 
+#sistema{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px red solid;
+    background-color: rgb(9, 4, 36);
+}
+.logoSistemaRPG{
+    margin: 1rem;
+    border: 2px red solid;
+}
+.sistemaRPG{
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center, justify;
+    border: 2px red solid;
+}
+.sistemaRPG img{
+    margin-left: 5rem;
+    border: 2px green solid;
+    border-radius: 10px;
+}
 
-
+.textosSistema1{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border: 2px red solid;
+}
+.textosSistema1 h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.textosSistema1 p{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+#sistemaP2{
+    margin: 2rem;
+    border: 2px purple solid;
+    font-size: 1.2em;
+}
+#sistemaP2 h1{
+    border: 2px green solid;
+    text-align: center;
+    font-size: 3em;
+}
+.cardsDoSistema{
+    border: 2px green solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    border: 2px wheat solid;
+    padding: 20px;  
+}
+.card{
+    width: 300px;
+    background-color: f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px rgba(98, 204, 12, 0.89) solid;
+    box-shadow: 0 4px 8px rgb(18, 143, 74);
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.cardContent{
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardContent h3{
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: rgba(98, 204, 12, 0.89);
+}
+.cardContent p{
+    font-size: 1em;
+    text-align: justify;
+    margin: 0;
+}
+.textosSistema2{
+    border: 2px green solid;
+}
